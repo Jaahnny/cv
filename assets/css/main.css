@@ -3308,7 +3308,7 @@ input, select, textarea {
 				}
 
 		/* My own CSS */
-		@media (min-width: 600px) {
+		@media screen and (max-width: 600px) and (min-width: 320px) {
 			button {
 				padding: 15px 13px !important;
 				width: 60% !important;
