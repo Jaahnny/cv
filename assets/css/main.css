@@ -99,6 +99,7 @@ input, select, textarea {
 			-webkit-transition: none !important;
 			-ms-transition: none !important;
 			transition: none !important;
+			background-color: black;
 		}
 
 	body, input, select, textarea {
