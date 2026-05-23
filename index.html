@@ -49,21 +49,21 @@
 <h2>Responsive Glassmorphism Columns</h2>
 
 <div class="container">
-
+    
     <div class="row">
 
         <div class="column">
             <h3>Column 1</h3>
             <p>
-                This is a modern transparent card design with shadow effects
-                and responsive layout for all screen sizes.
+                This is a modern transparent card design with smooth shadows
+                and responsive layout.
             </p>
         </div>
 
         <div class="column">
             <h3>Column 2</h3>
             <p>
-                The design automatically adjusts for desktop, tablet,
+                The layout automatically adjusts for desktop, tablet,
                 and mobile devices.
             </p>
         </div>
@@ -71,22 +71,116 @@
         <div class="column">
             <h3>Column 3</h3>
             <p>
-                Smooth hover animations and glass effects create a
-                professional modern UI.
+                Hover animations and glass effects create a clean
+                modern UI design.
             </p>
         </div>
 
         <div class="column">
             <h3>Column 4</h3>
             <p>
-                You can easily customize colors, spacing, and effects
-                to fit your website.
+                You can customize colors, shadows, and spacing
+                to match your website style.
             </p>
         </div>
 
     </div>
 
 </div>
+
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    padding: 40px 20px;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+h2{
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+
+.row{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.column{
+    padding: 25px;
+    border-radius: 20px;
+    color: white;
+
+    background: rgba(255, 255, 255, 0.15);
+
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+
+    border: 1px solid rgba(255, 255, 255, 0.2);
+
+    box-shadow:
+        0 8px 32px rgba(0, 0, 0, 0.25),
+        inset 0 1px 1px rgba(255,255,255,0.2);
+
+    transition: 0.3s ease;
+}
+
+.column:hover{
+    transform: translateY(-8px) scale(1.02);
+
+    box-shadow:
+        0 12px 35px rgba(0, 0, 0, 0.35),
+        inset 0 1px 1px rgba(255,255,255,0.3);
+}
+
+.column h3{
+    margin-bottom: 15px;
+    font-size: 1.4rem;
+}
+
+.column p{
+    line-height: 1.6;
+    font-size: 0.95rem;
+}
+
+/* Tablet */
+@media (max-width: 992px){
+    .row{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Mobile */
+@media (max-width: 600px){
+    .row{
+        grid-template-columns: 1fr;
+    }
+
+    h2{
+        font-size: 1.6rem;
+    }
+
+    .column{
+        padding: 20px;
+    }
+}
+</style>
 		<!-- Main -->
 			<div id="main">
 
