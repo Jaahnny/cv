@@ -3310,9 +3310,15 @@ input, select, textarea {
 		/* My own CSS */
 		@media screen and (max-width: 600px) and (min-width: 320px) {
 			button {
-				padding: 15px 13px !important;
-				width: 60% !important;
+				width: 100%;
 			}
 		}
+			.image1 {
+					display: block;
+					max-width: 100%;
+					border-radius: 1430px;
+					width: 30% !important;
+					place-self: anchor-center;
+			}
 			
 			}
