@@ -2775,6 +2775,11 @@ input, select, textarea {
 			text-align: center;
 			width: 2.35em;
 		}
+		
+		img {
+  			display: block;
+  			max-width: 100%;
+			}
 
 			#header .logo.fa-paper-plane-o:before {
 				left: -0.075em;
