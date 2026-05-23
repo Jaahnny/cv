@@ -3313,7 +3313,7 @@ input, select, textarea {
 				display: block;
     			max-width: 100%;
     			border-radius: 1430px;
-    			width: 30%;
+    			width: 30% !important;
     			place-self: anchor-center;
 			}
 			.subname {
