@@ -3310,8 +3310,8 @@ input, select, textarea {
 		/* My own CSS */
 		@media (min-width: 600px) {
 			button {
-				padding: 15px 13px;
-				width: 60%;
+				padding: 15px 13px !important;
+				width: 60% !important;
 			}
 		}
 			
