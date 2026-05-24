@@ -21,7 +21,7 @@
 				max-width: 100%;
 				border-radius: 1430px;
 				width: 30% !important;
-				place-self: anchor-center;"
+				justify-self: center;"
 				src="https://github.com/Jaahnny/mrls/blob/main/images/9ce7b0af9a7c4a3985137402a603402a.jpg?raw=true" alt="Wordpress Developer">
 				<h1>JOHN KENNETH MORALES</h1>
 				<p 
@@ -793,7 +793,323 @@
 
 
 
+<!-- ===================== MY PROCESS SECTION ===================== -->
 
+<section class="process-section">
+
+    <h2 class="process-title">
+        My Process
+        <span></span>
+    </h2>
+
+    <div class="process-grid">
+
+        <!-- STEP 1 -->
+        <div class="process-card">
+
+            <h1>01</h1>
+
+            <div class="process-icon">
+                <svg viewBox="0 0 24 24" fill="none">
+                    <path d="M16 21V19C16 17.9 15.1 17 14 17H6C4.9 17 4 17.9 4 19V21"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"/>
+                    <circle cx="10" cy="7" r="4"
+                        stroke="currentColor"
+                        stroke-width="2"/>
+                    <path d="M20 8V14"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"/>
+                    <path d="M23 11H17"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"/>
+                </svg>
+            </div>
+
+            <h3>Discovery</h3>
+
+            <p>
+                Understanding your goals, audience,
+                and project requirements.
+            </p>
+
+        </div>
+
+        <!-- STEP 2 -->
+        <div class="process-card">
+
+            <h1>02</h1>
+
+            <div class="process-icon">
+                <svg viewBox="0 0 24 24" fill="none">
+                    <path d="M12 20H21"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"/>
+                    <path d="M16.5 3.5A2.1 2.1 0 1 1 19.5 6.5L7 19L3 20L4 16L16.5 3.5Z"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linejoin="round"/>
+                </svg>
+            </div>
+
+            <h3>Design</h3>
+
+            <p>
+                Creating modern, user-friendly
+                layouts and visual experiences.
+            </p>
+
+        </div>
+
+        <!-- STEP 3 -->
+        <div class="process-card">
+
+            <h1>03</h1>
+
+            <div class="process-icon">
+                <svg viewBox="0 0 24 24" fill="none">
+                    <polyline points="16 18 22 12 16 6"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"/>
+                    <polyline points="8 6 2 12 8 18"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"/>
+                </svg>
+            </div>
+
+            <h3>Development</h3>
+
+            <p>
+                Building responsive, optimized,
+                and scalable digital solutions.
+            </p>
+
+        </div>
+
+        <!-- STEP 4 -->
+        <div class="process-card">
+
+            <h1>04</h1>
+
+            <div class="process-icon">
+                <svg viewBox="0 0 24 24" fill="none">
+                    <path d="M4.5 16.5C3 15 3 12 5 10L14 1L23 10L14 19C12 21 9 21 7.5 19.5"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linejoin="round"/>
+                    <path d="M9 15L15 9"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"/>
+                </svg>
+            </div>
+
+            <h3>Launch</h3>
+
+            <p>
+                Deploying your website and ensuring
+                everything performs smoothly.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<style>
+
+/* ===================== PROCESS SECTION ===================== */
+
+.process-section{
+    width: 100%;
+    margin-top: 80px;
+	margin: 0px 30px 0px 30px;
+}
+
+.process-title{
+    text-align: center;
+    color: white;
+
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    font-weight: 700;
+
+    margin-bottom: 60px;
+
+    position: relative;
+}
+
+.process-title span{
+    width: 80px;
+    height: 4px;
+
+    background: #3b82f6;
+
+    display: block;
+
+    margin: 16px auto 0;
+
+    border-radius: 50px;
+}
+
+/* ===================== GRID ===================== */
+
+.process-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+/* ===================== CARD ===================== */
+
+.process-card{
+    position: relative;
+
+    padding: 38px 32px;
+
+    border-radius: 24px;
+
+    background: rgba(255,255,255,0.06);
+
+    border: 1px solid rgba(255,255,255,0.12);
+
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+
+    box-shadow:
+        0 8px 32px rgba(0,0,0,0.18);
+
+    transition: 0.35s ease;
+}
+
+.process-card:hover{
+    transform: translateY(-8px);
+
+    border: 1px solid rgba(255,255,255,0.22);
+
+    box-shadow:
+        0 14px 40px rgba(0,0,0,0.28);
+}
+
+/* ===================== NUMBER ===================== */
+
+.process-card h1{
+    font-size: 4rem;
+    font-weight: 800;
+
+    color: rgba(59,130,246,0.45);
+
+    margin-bottom: 18px;
+}
+
+/* ===================== ICON ===================== */
+
+.process-icon{
+    width: 58px;
+    height: 58px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 22px;
+
+    border-radius: 16px;
+
+    background: rgba(59,130,246,0.08);
+
+    border: 1px solid rgba(59,130,246,0.18);
+
+    color: #3b82f6;
+}
+
+.process-icon svg{
+    width: 30px;
+    height: 30px;
+}
+
+/* ===================== TEXT ===================== */
+
+.process-card h3{
+    color: white;
+
+    font-size: 1.8rem;
+    font-weight: 700;
+
+    margin-bottom: 16px;
+}
+
+.process-card p{
+    color: rgba(255,255,255,0.68);
+
+    line-height: 1.8;
+
+    font-size: 1rem;
+}
+
+/* ===================== RESPONSIVE ===================== */
+
+@media (max-width: 1100px){
+
+    .process-grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px){
+
+    .process-grid{
+        grid-template-columns: 1fr;
+    }
+
+    .process-card{
+        padding: 34px 26px;
+    }
+
+    .process-card h1{
+        font-size: 3.5rem;
+    }
+
+    .process-card h3{
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 480px){
+
+    .process-title{
+        margin-bottom: 45px;
+    }
+
+    .process-card{
+        padding: 28px 22px;
+    }
+
+    .process-card h1{
+        font-size: 3rem;
+    }
+
+    .process-card h3{
+        font-size: 1.4rem;
+    }
+
+    .process-card p{
+        font-size: 0.92rem;
+        line-height: 1.7;
+    }
+}
+
+</style>
 
 
 
