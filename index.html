@@ -1429,7 +1429,250 @@
 
 
 
+<!-- ===================== FOOTER ===================== -->
 
+<footer class="footer-section">
+
+    <div class="footer-container">
+
+        <!-- LEFT -->
+        <div class="footer-left">
+
+            <h2>John Kenneth Morales</h2>
+
+            <p class="footer-role">
+                WordPress Developer • SEO Specialist
+            </p>
+
+            <p class="footer-location">
+                Pias, Mapandan, Pangasinan
+            </p>
+
+        </div>
+
+        <!-- RIGHT -->
+        <div class="footer-right">
+
+            <a href="mailto:johnkennethmorales1@gmail.com" class="footer-link">
+                
+                <svg viewBox="0 0 24 24" fill="none">
+                    <path d="M4 6H20V18H4V6Z"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linejoin="round"/>
+                    <path d="M4 7L12 13L20 7"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"/>
+                </svg>
+
+                johnkennethmorales1@gmail.com
+
+            </a>
+
+            <a href="tel:+639062646747" class="footer-link">
+
+                <svg viewBox="0 0 24 24" fill="none">
+                    <path d="M22 16.92V19.92C22 20.47 21.55 20.92 21 20.92C10.51 20.92 2 12.41 2 1.92C2 1.37 2.45 0.92 3 0.92H6C6.55 0.92 7 1.37 7 1.92V4.92C7 5.47 6.55 5.92 6 5.92H4.09C4.57 8.76 6.16 11.35 8.5 13.69C10.84 16.03 13.43 17.62 16.27 18.1V16.19C16.27 15.64 16.72 15.19 17.27 15.19H20.27C20.82 15.19 21.27 15.64 21.27 16.19Z"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"/>
+                </svg>
+
+                +639062646747
+
+            </a>
+
+            <a href="#portfolio" class="footer-link">
+
+                <svg viewBox="0 0 24 24" fill="none">
+                    <path d="M14 3H21V10"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"/>
+                    <path d="M10 14L21 3"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"/>
+                    <path d="M21 14V21H3V3H10"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"/>
+                </svg>
+
+                Portfolio
+
+            </a>
+
+        </div>
+
+    </div>
+
+    <!-- COPYRIGHT -->
+    <div class="footer-bottom">
+        © 2026 John Kenneth Morales. All rights reserved.
+    </div>
+
+</footer>
+
+
+<style>
+
+/* ===================== FOOTER ===================== */
+
+.footer-section{
+    width: 100%;
+
+    margin-top: 90px;
+
+    padding: 55px 0 25px;
+
+    border-top: 1px solid rgba(255,255,255,0.08);
+
+    background: rgba(255,255,255,0.02);
+
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+}
+
+/* ===================== CONTAINER ===================== */
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+
+    width: 100%;
+}
+
+/* ===================== LEFT ===================== */
+
+.footer-left h2{
+    color: white;
+
+    font-size: clamp(1.8rem, 4vw, 2.3rem);
+    font-weight: 700;
+
+    margin-bottom: 14px;
+}
+
+.footer-role{
+    color: rgba(255,255,255,0.72);
+
+    font-size: 1rem;
+
+    margin-bottom: 10px;
+}
+
+.footer-location{
+    color: rgba(255,255,255,0.55);
+
+    font-size: 0.95rem;
+}
+
+/* ===================== RIGHT ===================== */
+
+.footer-right{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.footer-link{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 12px;
+
+    color: rgba(255,255,255,0.75);
+
+    text-decoration: none;
+
+    font-size: 1rem;
+
+    transition: 0.3s ease;
+}
+
+.footer-link:hover{
+    color: #3b82f6;
+
+    transform: translateX(-4px);
+}
+
+.footer-link svg{
+    width: 18px;
+    height: 18px;
+}
+
+/* ===================== COPYRIGHT ===================== */
+
+.footer-bottom{
+    margin-top: 55px;
+
+    padding-top: 25px;
+
+    text-align: center;
+
+    color: rgba(255,255,255,0.45);
+
+    font-size: 0.92rem;
+
+    border-top: 1px solid rgba(255,255,255,0.06);
+}
+
+/* ===================== RESPONSIVE ===================== */
+
+@media (max-width: 768px){
+
+    .footer-container{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-right{
+        width: 100%;
+        align-items: center;
+    }
+
+    .footer-link{
+        justify-content: center;
+    }
+
+    .footer-bottom{
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 480px){
+
+    .footer-section{
+        padding: 45px 0 22px;
+    }
+
+    .footer-left h2{
+        font-size: 1.5rem;
+    }
+
+    .footer-role,
+    .footer-location,
+    .footer-link{
+        font-size: 0.92rem;
+    }
+
+    .footer-bottom{
+        font-size: 0.82rem;
+        line-height: 1.7;
+    }
+}
+
+</style>
 
 
 
@@ -1442,7 +1685,7 @@
 					</ul>
 
 					<ul class="copyright">
-						<li>&copy; Johnny. All rights reserved.</li><li>Design:</li>
+						<li>&copy; Johnny. All rights reserved.</li>
 					</ul>
 
 				</div>
