@@ -2804,8 +2804,6 @@ input, select, textarea {
 
 	#footer {
 		background-attachment: scroll;
-		background-color: #4eb980;
-		background-image: url("images/bottom-3200.svg");
 		background-position: top center;
 		background-repeat: repeat-x;
 		background-size: 3200px 460px;
@@ -2823,7 +2821,8 @@ input, select, textarea {
 	}
 
 		#footer:before {
-			background: rgba(224, 224, 224, 0.75);
+			
+			
 			content: '';
 			height: calc(460px + 6em);
 			left: 50%;
@@ -3208,7 +3207,7 @@ input, select, textarea {
 		/* Footer */
 
 			#footer {
-				background-image: url("images/bottom-1280.svg");
+				
 				background-size: 1280px 184px;
 				margin-top: -75px;
 				padding: calc(184px + 2em) 0 2em 0;
