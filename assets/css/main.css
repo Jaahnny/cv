@@ -116,7 +116,7 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #4eb980;
+		color: white;
 		text-decoration: none;
 	}
 
@@ -2108,7 +2108,7 @@ input, select, textarea {
 		select:focus,
 		textarea:focus {
 			background: rgba(224, 224, 224, 0.15);
-			border-color: #4eb980;
+			border-color: white;
 		}
 
 	input[type="text"],
@@ -2714,6 +2714,7 @@ input, select, textarea {
 		padding: 5em 0 10em 0;
 		position: relative;
 		text-align: center;
+		background: radial-gradient(circle at center, rgba(59, 130, 246, 0.18), rgba(255, 255, 255, 0.02));
 	}
 
 		#header:before, #header:after {
@@ -2743,7 +2744,7 @@ input, select, textarea {
 
 			#header a:hover {
 				border-bottom-color: transparent;
-				color: #4eb980;
+				color: white;
 			}
 
 		#header strong, #header b {
@@ -2763,7 +2764,7 @@ input, select, textarea {
 		}
 
 		#header .logo {
-			background: #4eb980;
+			background: white;
 			border-radius: 100%;
 			color: #ffffff;
 			cursor: default;
@@ -2854,7 +2855,7 @@ input, select, textarea {
 		#footer .button {
 			background: #ffffff;
 			box-shadow: inset 0 0 0 1px #ffffff;
-			color: #4eb980;
+			color: white;
 		}
 
 			#footer input[type="submit"]:hover,
